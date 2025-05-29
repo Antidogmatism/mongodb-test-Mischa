@@ -20,7 +20,7 @@ const fighterSchema = new mongoose.Schema({
   isActive: Boolean, // Boolean to indicate if the fighter is currently active
   fightingStyles: Array
  
-}, )
+})
 
 // Optionally, add instance methods
 fighterSchema.methods.getName = function() {
@@ -33,14 +33,14 @@ fighterSchema.methods.getWeightClass = function() {
   return this.weightClass;
 };
 fighterSchema.methods.getRecord = function() {
-  return this.record;
+  return { wins: this.wins, losses: this.losses, isActive: this.isActive };
 };
 
 // Create Fighter model
 const Fighter = mongoose.model('Fighter', fighterSchema);
 
 // GET /fighters - Return all fighters
-app.get('/fighters', async (req, res) => {
+app.get('/fighters', async (_, res) => {
   try {
     const fighters = await Fighter.find();
     res.json(fighters);
@@ -86,12 +86,14 @@ app.get('/fighters/weightclass/:weightClass', async (req, res) => {
 app.get('/fighters/active', async (req, res) => {
   try {
     const activeFighters = await Fighter.find({ isActive: true });
+    if (!activeFighters || activeFighters.length === 0) {
+      return res.status(404).json({ error: 'No active fighters found' });
+    }
     res.json(activeFighters);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
-}
-);
+});
 
 // Start the server
 app.listen(PORT, () => {
